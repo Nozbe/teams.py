@@ -1,6 +1,6 @@
 [project]
 name = "microsoft-teams-common"
-dynamic = ["version"]
+version = "2.0.0a8"
 description = "Common package for Microsoft Teams"
 readme = "README.md"
 repository = "https://github.com/microsoft/teams.py"
