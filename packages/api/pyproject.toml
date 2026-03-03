@@ -40,5 +40,3 @@ packages = ["src/microsoft_teams", "src/microsoft"]
 
 [tool.hatch.build.targets.sdist]
 include = ["src"]
-[tool.hatch]
-version = ["1.0.0"]

@@ -56,8 +56,5 @@ check = ["fmt", "lint"]
 test = "pytest"
 generate-activity-handlers = "python packages/apps/scripts/generate_handlers.py"
 
-[tool.hatch]
-version = ["1.0.0"]
-
 [tool.hatch.build.targets.wheel]
 packages = ["packages/*"]

@@ -46,5 +46,3 @@ packages = ["src/microsoft_teams", "src/microsoft"]
 microsoft-teams-common = { workspace = true }
 microsoft-teams-api = { workspace = true }
 microsoft-teams-graph = { workspace = true }
-[tool.hatch]
-version = ["1.0.0"]
