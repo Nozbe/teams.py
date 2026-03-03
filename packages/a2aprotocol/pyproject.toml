@@ -21,11 +21,8 @@ external = true
 
 
 [build-system]
-requires = ["hatchling", "nbgv-python"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.hatch.version]
-source = "nbgv"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/microsoft_teams", "src/microsoft"]
@@ -37,3 +34,5 @@ include = ["src"]
 microsoft-teams-common = { workspace = true }
 microsoft-teams-apps = { workspace = true }
 microsoft-teams-ai = { workspace = true }
+[tool.hatch]
+version = ["1.0.0"]

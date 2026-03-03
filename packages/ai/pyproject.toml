@@ -24,3 +24,5 @@ include = ["src"]
 
 [tool.uv.sources]
 microsoft_teams_common = { workspace = true }
+[tool.hatch]
+version = ["1.0.0"]

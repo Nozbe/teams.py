@@ -26,9 +26,6 @@ dev = [
     "pyright>=1.1.404",
     "cookiecutter>=2.6.0",
 ]
-release = [
-    "nbgv-python>=0.1.8",
-]
 
 [tool.ruff]
 line-length = 120
@@ -58,6 +55,9 @@ lint = "ruff check"
 check = ["fmt", "lint"]
 test = "pytest"
 generate-activity-handlers = "python packages/apps/scripts/generate_handlers.py"
+
+[tool.hatch]
+version = ["1.0.0"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["packages/*"]

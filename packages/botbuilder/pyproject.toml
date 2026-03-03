@@ -34,3 +34,5 @@ include = ["src"]
 microsoft-teams-apps = { workspace = true }
 microsoft-teams-api = { workspace = true }
 microsoft-teams-common = { workspace = true }
+[tool.hatch]
+version = ["1.0.0"]

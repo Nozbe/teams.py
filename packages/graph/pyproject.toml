@@ -1,6 +1,6 @@
 [project]
 name = "microsoft-teams-graph"
-dynamic = ["version"]
+version = "1.0.0"
 description = "The Graph package for a Microsoft Teams agent"
 readme = "README.md"
 license = { text = "MIT" }
@@ -37,3 +37,6 @@ include = ["src"]
 
 [tool.uv.sources]
 microsoft-teams-common = { workspace = true }
+
+[tool.hatch]
+version = ["1.0.0"]
